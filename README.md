@@ -24,7 +24,7 @@ Date: 24 March 2022
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-challenge-Hy9q22YMq)
 - Live on GitHub: [Live](https://ethenpage.github.io/QR-Code/)
 
 ## My process
@@ -42,11 +42,19 @@ To make a box vertically center alignment, the following code is useful.
 
 ```html
 <body>
-  <div class="main">
-    ...............
-    ...............
+  <div class="content">
+    <main>
+      <div class="container">
+        .................
+        .................
+      </div>
+    </main>
+    <footer>
+      ..................
+    </footer>
   </div>
-</body>
+<body>
+
 ```
 ```css
 body{
@@ -54,7 +62,7 @@ body{
     height: 100vh;
 }
 
-.main{
+.content{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
