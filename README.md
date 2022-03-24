@@ -69,6 +69,29 @@ body{
     width: 100%;
 }
 ```
+Another Solution: using flex. In this case only child involves, not parent.
+Thanks to [Ciceron](https://www.frontendmentor.io/profile/MarcusTuliusCiceron)
+
+```css
+body{
+    /* position: relative;
+    min-height: 100vh; */
+}
+
+.content{
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+```
+
+
 
 ## Author
 
