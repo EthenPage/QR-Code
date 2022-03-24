@@ -14,7 +14,7 @@ body{
     height: 100vh;
 }
 
-.main{
+main{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
